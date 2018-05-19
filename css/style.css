@@ -1,0 +1,47 @@
+*{
+      margin:0;
+      padding:0;
+}
+
+.submitBtn{
+     margin-top:20px;
+}
+
+.todayTask{
+      margin-top:20px;
+      margin-left:20px;
+      height:40px;
+     font-size:20px;
+}
+
+.checked{
+    margin-top:20px;
+    width:30px;
+    filter:grayscale(100%);
+
+}
+
+.checked:active{
+    width:35px;
+    filter:none;
+}
+
+.checked:hover{
+    filter:none;
+}
+#listOfTasks h3:nth-child(2){
+    margin-left:50%;
+    margin-top:-60px;
+
+}
+#listOfTasks{
+    padding-left:40px;
+
+}
+#date{
+    margin-left:50%;
+    font-size:16px;
+}
+.addInput{
+    margin-left:4%;
+}
